@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    background-image: url(img/thinker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .container{
+      text-align: center;
+      background-color: rgba(88,97,102,0.45);
+      
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .game{
+      font-size: xx-large;
+      position: absolute;
+  }
+  
+  ol {
+    counter-reset: n;
+  }
+  
+  ol > li {
+    list-style: none;
+    counter-increment: n;
+  }
+  
+  ol > li::before {
+    content: "Task " counter(n) ":";
+    font-weight: bold;
+  }
+  
+  .btn {
+      display: none;
+  }
+
+  .top{
+    text-align: center;
+  }
+
+  .middle{
+    text-align: center;
+
+  }
+
+  .bottom{
+    text-align: center; 
+  }
+  
