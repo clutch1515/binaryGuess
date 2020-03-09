@@ -8,12 +8,12 @@
     "start": "npm run lite",
     "lite": "lite-server"
   },
-  
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node": "^13.10.1"
   }
 }
