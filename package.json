@@ -9,7 +9,7 @@
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
     "lite": "lite-server",
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
@@ -20,9 +20,11 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
     "lite-server": "^2.5.4",
     "netlify": "^4.1.5",
-    "node": "^13.14.0"
+    "node": "^13.14.0",
+    "popper": "^1.0.1"
   },
   "devDependencies": {
     "copyfiles": "^2.0.0",
